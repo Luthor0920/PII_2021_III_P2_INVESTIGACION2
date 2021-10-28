@@ -1,4 +1,4 @@
-package hn.edu.ujcv.objetos;
+package hn.edu.ujcv.objetos.iterador;
 
 public class ListaNumeros {
     private int numeros[];

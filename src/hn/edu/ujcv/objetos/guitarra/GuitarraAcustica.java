@@ -1,4 +1,4 @@
-package hn.edu.ujcv.objetos;
+package hn.edu.ujcv.objetos.guitarra;
 
 public class GuitarraAcustica { //Clase adaptada
     //Abierto Cerrado SOLID

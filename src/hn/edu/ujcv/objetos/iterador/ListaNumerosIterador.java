@@ -1,6 +1,6 @@
-package hn.edu.ujcv.objetos;
+package hn.edu.ujcv.objetos.iterador;
 
-public class ListaNumerosIterador implements Iterador{
+public class ListaNumerosIterador implements Iterador{ //Prototype
     private int numeros[];
     private int posicion;
 
@@ -9,7 +9,7 @@ public class ListaNumerosIterador implements Iterador{
         this.posicion = 0;
     }
     @Override
-    public Object siguiente(){
+    public Object siguiente(){ //Prototype
         return numeros[posicion++];
     }
     @Override
@@ -20,5 +20,4 @@ public class ListaNumerosIterador implements Iterador{
             return false;
         }
     }
-
 }

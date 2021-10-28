@@ -1,4 +1,4 @@
-package hn.edu.ujcv.objetos;
+package hn.edu.ujcv.objetos.guitarra;
 
 public class GuitarraElectroAcustica extends Guitarra{ //Clase ADAPTER
     GuitarraAcustica acustica = new GuitarraAcustica(); //Dependencia SOLID
@@ -6,7 +6,8 @@ public class GuitarraElectroAcustica extends Guitarra{ //Clase ADAPTER
     @Override
     public void encenderGuitarra() { //Liskov SOLID
         acustica.tocar();
-    }
+
+    } //Builder
     @Override
     public void apagarGuitarra() {
         acustica.DejarDeTocar();
